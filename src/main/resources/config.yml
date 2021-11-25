@@ -1,0 +1,15 @@
+#theo phút
+resetPasswordTimer: 30
+#lệnh nguy hiểm
+checkCommand:
+    - stop
+    - restart
+    - whois
+    - seen
+    - kick
+    - ban
+    - mute
+
+inputPasswordCountdown: 60
+passwordLength: 32
+discordWebhookUrl: ""

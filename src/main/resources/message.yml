@@ -1,0 +1,18 @@
+prefix: "&c&lAntiHackOP&2&l >>"
+notInPlayerList: "&cBạn không nằm trong danh sách người chơi được phép dùng lệnh này!"
+
+warnTitle: "&c&lCảnh báo bảo mật!!!"
+warnSubtitle: "&2Hãy nhập mật khẩu vào và bạn có thể dùng lệnh này!!"
+warnMsg: "&cVui lòng nhập mật khẩu vào khung chat!! &7(%1s)"
+wrongPass: "&4Sai mật khẩu! Vui lòng thử lại!"
+passed: "&aCảm ơn bạn đã nhập đúng mật khẩu! Lần reset pass tiếp theo vào &2%1"
+
+inputingPassword: "&cBạn đang nhập mật khẩu! Hãy nhập trước mới được dùng lệnh!"
+
+kickMsg: "&cNghi vấn HackOP!"
+
+discord:
+    reset:
+        content: "**%1**:`%2`\n"
+        title: "Reset Password"
+        message: "Reset Password Announcement!"
