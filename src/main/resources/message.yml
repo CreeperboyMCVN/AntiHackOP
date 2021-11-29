@@ -11,8 +11,46 @@ inputingPassword: "&cBạn đang nhập mật khẩu! Hãy nhập trước mới
 
 kickMsg: "&cNghi vấn HackOP!"
 
+
 discord:
     reset:
-        content: "**%1**:`%2`\n"
-        title: "Reset Password"
-        message: "Reset Password Announcement!"
+        #%1 trả về người chơi
+        #%2 trả về pass
+        passwordList: "**%1** `%2`\n"
+        
+        webhook:
+            content: ""
+            embed:
+                title: "Reset mật khẩu"
+                color: "#FF0000"
+                url: ""
+                #placeholder %passwordList% chỉ mới tích hợp cho description
+                description: "%passwordList%"
+                thumbnail: ""
+                image: ""
+        
+    accepted:
+        webhook:
+            content: ""
+            embed:
+                title: "Đăng nhập thành công!"
+                color: "#00FF00"
+                url: ""
+                #placeholder %player% chỉ mới tích hợp cho description và thumbnail
+                description: "%player% đăng nhập thành công vào hệ thống AntiBypassLogin!"
+                thumbnail: ""
+                image: ""
+                
+    ignored:
+        webhook:
+            content: ""
+            embed:
+                title: "Đăng nhập thất bại!"
+                color: "#FF0000"
+                url: ""
+                #placeholder %player% chỉ mới tích hợp cho description và thumbnail
+                description: "%player% đăng nhập thất bại vào hệ thống AntiBypassLogin!"
+                thumbnail: ""
+                image: ""
+
+config-version: 1

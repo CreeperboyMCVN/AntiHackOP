@@ -15,9 +15,11 @@ public class Main extends JavaPlugin {
     @Override
     public void onEnable() {
         setInst(this);
+        
         saveDefaultConfig();
         message = new Storage(this, "message.yml");
         data = new Storage(this, "data.yml");
+        Updater.check();
         this.getServer().getPluginManager().registerEvents(new ChatEvent(), this);
         this.getServer().getPluginManager().registerEvents(new CommandEvent(), this);
         NewPasswordTask task = new NewPasswordTask();

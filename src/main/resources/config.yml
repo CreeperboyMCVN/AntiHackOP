@@ -12,4 +12,7 @@ checkCommand:
 
 inputPasswordCountdown: 60
 passwordLength: 32
+timeZone: "GMT+7"
 discordWebhookUrl: ""
+
+config-version: 1
