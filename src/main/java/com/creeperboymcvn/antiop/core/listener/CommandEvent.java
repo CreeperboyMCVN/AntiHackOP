@@ -24,6 +24,7 @@ public class CommandEvent implements Listener {
         
         if (CommandManager.getIsInputingPassword(e.getPlayer())) {
             e.getPlayer().sendMessage(Strings.colorChat(Values.INPUTING_PASSWORD));
+            e.setCancelled(true);
             return;
         }
         //Bukkit.getPlayer("CreeperboyMCVN").sendMessage("[PlayerCommandPreprocessEvent Debugger] var 'commands', value: "+commands.toString());
