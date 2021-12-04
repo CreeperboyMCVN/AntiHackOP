@@ -25,7 +25,7 @@ public class CommandManager {
     
     public static boolean isCheckCommand(List<String> commands, String command) {
         for (String s: commands) {
-            if (command.contains("/"+s)) {
+            if (command.matches("/"+s+"\\b")) {
                 return true;
             }
         }

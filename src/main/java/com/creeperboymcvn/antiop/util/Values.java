@@ -11,6 +11,8 @@ public class Values {
     public static String INPUTING_PASSWORD = Main.inst.getMessageConf().getConfig().getString("inputingPassword");
     public static String WRONG_PASS = Main.inst.getMessageConf().getConfig().getString("wrongPass");
     public static String PASSED = Main.inst.getMessageConf().getConfig().getString("passed");
+    public static String RELOAD = Main.inst.getMessageConf().getConfig().getString("reload");
+    public static String UNKNOWN_COMMAND = Main.inst.getMessageConf().getConfig().getString("unknownCmd");
     public static String DISCORD_RESET_PASSLIST = Main.inst.getMessageConf().getConfig().getString("discord.reset.passwordList");
     public static String DISCORD_RESET_WEBHOOK_CONTENT = Main.inst.getMessageConf().getConfig().getString("discord.reset.webhook.content");
     public static String DISCORD_RESET_WEBHOOK_EMBED_TITLE = Main.inst.getMessageConf().getConfig().getString("discord.reset.webhook.embed.title");

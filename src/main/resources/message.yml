@@ -9,6 +9,9 @@ passed: "&aCảm ơn bạn đã nhập đúng mật khẩu! Lần reset pass ti�
 
 inputingPassword: "&cBạn đang nhập mật khẩu! Hãy nhập trước mới được dùng lệnh!"
 
+reload: "&aĐã tải lại cấu hình"
+unknownCmd: "&cVui lòng dùng /antibypasslogin reload"
+
 kickMsg: "&cNghi vấn HackOP!"
 
 
@@ -53,4 +56,4 @@ discord:
                 thumbnail: ""
                 image: ""
 
-config-version: 1
+config-version: 2

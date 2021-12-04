@@ -22,7 +22,7 @@ public class Updater {
             }
         }
         
-        if (msgVersion == 0 || msgVersion < 1) {
+        if (msgVersion == 0 || msgVersion < 2) {
             File f = new File(Main.inst.getDataFolder()+File.separator+"message.yml");
             if (!f.exists()) {
                 Main.inst.getLogger().info("Đang tạo file message.yml mới");

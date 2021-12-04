@@ -2,3 +2,6 @@ main: com.creeperboymcvn.antiop.Main
 name: AntiBypassLogin
 version: 1.0-RELEASE
 author: CreeperboyMCVN
+commands:
+    antibypasslogin:
+        aliases: [abl]
